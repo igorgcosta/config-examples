@@ -1,0 +1,23 @@
+defaults:
+  network:
+    host: es_default_network_host
+  cluster:
+    name: es_default_culster_name
+  node:
+    name: es_default_node_name
+
+development:
+  network: 
+    host: es_development_host
+  cluster:
+    name: es_development_culster_name
+  node:
+    name: es_develompment_node_name
+
+production:
+  network: 
+    host: env:ES_NETWORK_HOST
+  cluster:
+    name: env:ES_CLUSTER_NAME
+  node:
+    name: env:ES_NODE_NAME

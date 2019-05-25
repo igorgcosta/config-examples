@@ -1,0 +1,5 @@
+defaults:
+  host: amqp://localhost:5672
+
+production: 
+  host: env:RABBITMQ_HOST

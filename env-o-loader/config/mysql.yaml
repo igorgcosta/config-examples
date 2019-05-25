@@ -1,0 +1,5 @@
+defaults:
+  host: mysql://root@localhost:3306/ads_development
+
+production:
+  host: env:MYSQL_CONNECTION_HOST

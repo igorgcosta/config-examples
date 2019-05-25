@@ -1,0 +1,22 @@
+{
+  "name": "config-examples",
+  "version": "1.0.0",
+  "description": "Testes de diferentes formas de carregar configurações de ambiente",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igorgcosta/config-examples.git"
+  },
+  "author": "Igor Costa <igorgabriel@outlook.com> (http://igorgcosta.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/igorgcosta/config-examples/issues"
+  },
+  "homepage": "https://github.com/igorgcosta/config-examples#readme",
+  "dependencies": {
+    "env-o-loader": "^1.0.7"
+  }
+}
