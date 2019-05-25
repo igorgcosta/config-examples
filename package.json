@@ -18,6 +18,7 @@
   "homepage": "https://github.com/igorgcosta/config-examples#readme",
   "dependencies": {
     "config": "^3.1.0",
+    "convict": "^5.0.0",
     "dotenv": "^8.0.0",
     "env-o-loader": "^1.0.7"
   }

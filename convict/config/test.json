@@ -1,0 +1,20 @@
+{
+  "env": "test",
+  "elasticsearch": {
+    "network": {
+      "host": "es_test_network_host"
+    },
+    "cluster": {
+      "name": "es_test_culster_name"
+    },
+    "node": {
+      "name": "es_test_culster_name"
+    }
+  },
+  "mysql": {
+    "host": "mysql://root@localhost:3306/ads_test"
+  },
+  "rabbitmq": {
+    "host": "RABBITMQ_HOST"
+  }
+}

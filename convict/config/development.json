@@ -1,0 +1,20 @@
+{
+  "env": "development",
+  "elasticsearch": {
+    "network": {
+      "host": "es_development_network_host"
+    },
+    "cluster": {
+      "name": "es_development_culster_name"
+    },
+    "node": {
+      "name": "es_development_culster_name"
+    }
+  },
+  "mysql": {
+    "host": "mysql://root@localhost:3306/ads_development"
+  },
+  "rabbitmq": {
+    "host": "amqp://localhost:5672"
+  }
+}
